@@ -1,0 +1,5 @@
+mac: 58:5b:69:45:8f:91
+sn: I8F9109BE95T
+deviceName: IPC
+plateNumber: 
+plateNumber: RMP3E49

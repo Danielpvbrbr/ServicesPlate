@@ -1,0 +1,18 @@
+{
+  "name": "services_conn",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Daniel Nascimento",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "xml2js": "^0.6.2"
+  }
+}
