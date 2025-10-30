@@ -30,10 +30,10 @@ async function handleAlarmData(req, res) {
 
     try {
         const result = await xml2js.parseStringPromise(rawXml, { explicitArray: false });
-        //console.log('XML convertido:\n', JSON.stringify(result, null, 2));
+        // console.log('XML convertido:\n', JSON.stringify(result, null, 2));
 
         const tipo = result?.config?.eventType || result?.config?.type || 'desconhecido';
-        //console.log(`Evento recebido: ${tipo}`);
+        // console.log(`Evento recebido: ${tipo}`);
 
         buscarEProcessarBase64(result);
 

@@ -11,8 +11,10 @@
     "dev": "nodemon index.js"
   },
   "dependencies": {
+    "escpos": "^3.0.0-alpha.6",
     "express": "^5.1.0",
     "nodemon": "^3.1.10",
+    "usb": "^2.16.0",
     "xml2js": "^0.6.2"
   }
 }
